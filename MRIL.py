@@ -68,7 +68,7 @@ class ReverseIP(Thread):
                 try:
                     loaded_json=(json.loads(response.text)['domainArray'])
                 except:
-                    print(f"[*] No domains for {ipaddy}")
+                    print(f"[*] No domains found for {ipaddy}")
                     return
                 OUTPUT_HANDLE.write('Results for '+ipaddy+' :\n')
                 print(f"[*] {len(loaded_json)} domains found for {ipaddy}")
@@ -92,5 +92,5 @@ for thread in threads:
 
 print("******************************************************")
 print('[*] Scan is done')
-print(f'[*] Output file: {os.getcwd()}output.txt')
+print(f'[*] Output file: {os.getcwd()}/output.txt')
 print("******************************************************")
