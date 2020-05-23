@@ -15,7 +15,7 @@ Installing Dependencies
 Examples
 -------------
 * Simple port knocking example: 
-`python knockit.py 127.0.0.1 23 25 8080`
+`python MRIL.py`
 
 ```
 ******************************************************
