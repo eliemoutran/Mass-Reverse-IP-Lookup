@@ -14,7 +14,7 @@ Installing Dependencies
 
 Examples
 -------------
-* Simple port knocking example: 
+
 `python MRIL.py`
 
 ```
