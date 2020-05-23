@@ -12,12 +12,13 @@ Installing Dependencies
 -------------
 `pip install requests`
 
-Examples
+Usage Example
 -------------
 
-`python MRIL.py`
 
 ```
+> python MRIL.py
+
 ******************************************************
 *                                                    *
 *  __  __ _____  _____ _                             *
